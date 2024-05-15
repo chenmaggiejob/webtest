@@ -1,0 +1,93 @@
+* {
+    box-sizing:border-box;
+}
+
+.hearder {
+    width: 1024px;
+    height: 65px;
+    /* background-color: burlywood; */
+    margin: auto;
+    border: 1px solid gray;
+}
+
+.container {
+    width: 1024px;
+    height: calc(768px - 65px - 20px);
+    /* background-color: lightpink; */
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    border-right: 1px solid gray;
+    
+    
+}
+
+.aside {
+    width: 215px;
+    height: 100%;
+    /* background-color: aqua; */
+    border: 1px solid gray;
+    border-top: 0px;
+}
+
+.aside-hearder {
+    width: 100%;
+    height: calc(100% - 25px);
+    /* background-color: lightblue; */
+    border-bottom: 1px solid gray;
+}
+
+.aside-title {
+    width: 100%;
+    height: 29px;
+    /* background-color: aqua; */
+}
+
+.aside-footer {
+    width: 100%;
+    height: 25px;
+    /* background-color: lightskyblue; */
+}
+
+.main {
+    width: calc(100% - 215px);
+    height: 100%;
+    /* background-color: aquamarine; */
+    border-bottom: 1px solid gray;
+    
+
+}
+
+.main-hearder {
+    width: 100%;
+    height: 29px;
+    /* background-color: lawngreen; */
+    border-bottom: 1px solid gray;
+    
+    
+}
+
+.marquee {
+    width: 100%;
+    height: 29px;
+    /* background-color:lightgreen; */
+}
+
+.main-section {
+    width: 100%;
+    height: calc(100% - 29px);
+    /* background-color: green; */
+}
+
+.footer {
+    width: 1024px;
+    height: 20px;
+    /* background-color: burlywood; */
+    margin: auto;
+    border: 1px solid gray;
+    border-top: 0px;
+}
+
+
+
+
