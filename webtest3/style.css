@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+}
+
+
+header {
+    width: 1024px;
+    height: 65px;
+    /* background-color: aqua; */
+    border: 1px solid gray;
+    margin: auto;
+
+}
+
+.container {
+    margin: auto;
+
+    width: 1024px;
+    height: calc(768px - 65px - 20px);
+    /* background-color: brown; */
+    display: flex;
+    flex-direction: row;
+
+}
+
+aside {
+    width: 215px;
+    height: 100%;
+    /* background-color: lightcoral; */
+    border: 1px solid gray;
+    border-top: 0px;
+
+}
+
+.aside-header {
+    width: 100%;
+    height: calc(100% - 25px);
+    /* background-color: bisque; */
+    /* border: 1px solid gray; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.aside-title {
+    width: 100%;
+    /* height: 29px; */
+    /* background-color: aquamarine; */
+    font-weight: 500;
+    font-family: 標楷體;
+    font-size: 24px;
+    color: #FF00FF;
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+
+}
+
+.box {
+
+    /* background-color:lightpink; */
+    /* border: 1px solid gray; */
+    border-left: 0px;
+    border-bottom: 0px;
+
+    font-weight: 500;
+    font-family: 標楷體;
+    font-size: 16px;
+    color: #000000;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 35px;
+    background-image: url(../images/menu1.png);
+    margin-top: 20px;
+
+}
+
+
+
+.box>.box:hover {
+    background-image: url(../images/menu2.png);
+}
+
+
+.aside-footer {
+    width: 100%;
+    height: 25px;
+    /* background-color: blue; */
+    border-top: 1px solid gray;
+    font-family: 標楷體;
+    font-size: 16px;
+    color: #000000;
+    text-align: center;
+}
+
+main {
+    width: calc(100% - 215px);
+    height: 100%;
+    /* background-color: lightseagreen; */
+    display: flex;
+    flex-direction: column;
+}
+
+.main-header {
+    width: 100%;
+    height: 29px;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid gray;
+
+    /* background-color: black; */
+}
+
+
+.main-section {
+    width: 100%;
+    height: 100%;
+    /* background-color: blueviolet; */
+    border: 1px solid gray;
+    border-left: 0px;
+}
+
+footer {
+    width: 1024px;
+    height: 20px;
+    /* background-color: blanchedalmond; */
+    border: 1px solid gray;
+    border-top: 0px;
+    margin: auto;
+    font-family: 標楷體;
+    font-size: 16px;
+    color: #000000;
+    text-align: center;
+}
+
+marquee {
+    height: 29px;
+    font-family: '標楷體';
+    font-size: 24px;
+    color: #0000FF;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
